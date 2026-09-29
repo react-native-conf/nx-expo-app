@@ -1,0 +1,34 @@
+{
+  "name": "@next-app/next-app-todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/next-app-todo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "*",
+    "@expo/metro": "*",
+    "@testing-library/react-native": "*",
+    "expo": "*",
+    "expo-splash-screen": "*",
+    "expo-status-bar": "*",
+    "expo-system-ui": "*",
+    "jest-expo": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-svg-transformer": "*",
+    "react-native-web": "*"
+  },
+  "devDependencies": {},
+  "nx": {
+    "targets": {
+      "build-android": {
+        "command": "./gradlew app:assembleDebug -PreactNativeArchitectures=arm64-v8a",
+        "options": {
+          "cwd": "apps/next-app-todo/android"
+        }
+      }
+    }
+  }
+}
