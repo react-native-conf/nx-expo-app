@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/next-app-todo"
+    },
+    {
+      "path": "./ecom-admin"
+    },
+    {
+      "path": "./emotion-ui"
     }
   ]
 }
