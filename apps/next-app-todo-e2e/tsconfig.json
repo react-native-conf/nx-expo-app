@@ -3,7 +3,10 @@
   "compilerOptions": {
     "allowJs": true,
     "outDir": "out-tsc/playwright",
-    "sourceMap": false
+    "sourceMap": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
   },
   "include": [
     "**/*.ts",
