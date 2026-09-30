@@ -1,9 +1,12 @@
 {
   "name": "@next-app/source",
   "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
   "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {},
   "dependencies": {
     "@expo/metro": "~56.0.0",
     "@expo/metro-runtime": "~56.0.14",
@@ -20,6 +23,7 @@
     "react-native-web": "~0.21.0"
   },
   "devDependencies": {
+    "@babel/runtime": "~7.27.6",
     "@expo/cli": "~56.1.14",
     "@nx/devkit": "23.2.1",
     "@nx/expo": "23.2.1",
@@ -36,8 +40,5 @@
     "oxlint": "^1.75.0",
     "tslib": "^2.3.0",
     "typescript": "~6.0.3"
-  },
-  "workspaces": [
-    "apps/*"
-  ]
+  }
 }
