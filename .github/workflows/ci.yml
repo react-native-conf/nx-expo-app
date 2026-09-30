@@ -32,7 +32,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm exec nx run-many -t lint export
+      - run: pnpm exec nx run-many -t lint typecheck build export
 
   build-android:
     runs-on: ubuntu-latest

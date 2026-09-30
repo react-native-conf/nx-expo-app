@@ -16,6 +16,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@next-app/source"]
+    "customConditions": ["@next-app/source"],
+    "paths": {
+      "@next-app/emotion-ui": ["./emotion-ui/src/index.ts"]
+    }
   }
 }
