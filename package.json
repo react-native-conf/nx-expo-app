@@ -33,6 +33,7 @@
     "@nx/workspace": "23.2.1",
     "@playwright/test": "^1.37.0",
     "@swc/helpers": "~0.5.18",
+    "@types/node": "^24.19.0",
     "@types/react": "^19.2.0",
     "babel-preset-expo": "~56.0.14",
     "nx": "23.2.1",
